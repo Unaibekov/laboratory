@@ -8,6 +8,12 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -68,10 +74,48 @@
         <h1 class="section-heading">Достижения</h1>
         <div style="margin-bottom: 50px;"class="section-text">На сегодняшний день в 4-х районах юго-востока республики Татарстан функционируют 8 лабораторий и 2 теплицы, в том числе 5 из них – в сельской местности (3 – в г. Альметьевске, 3 – в селах Азнакаевского района, 1 – в пос. Ютаза, 1 – с. Шугурово).
         </div>
-        <h2 >Реализуется совместный проект</h2>
-        <div class="section-text-item">С Центральным Сибирским ботаническим садом Сибирского отделения Российской академии наук по созданию мини-ботанического сада при школе № 2 пгт. Актюбинский, а также разработаны планы учебных курсов для школьников.
+        <h2 class="progress-item-title">Реализуется совместный проект</h2>
+        <div class="section-text-item">с Центральным Сибирским ботаническим садом Сибирского отделения Российской академии наук по созданию мини-ботанического сада при школе № 2 пгт. Актюбинский, а также разработаны планы учебных курсов для школьников.
+        </div>
+        <div class="progress-items">
+            <div class="progress-item">
+                <div class="progress-item-title">8 <span>лабораторий</span></div>
+                <div class="progress-item-subtitle">открыты лаборатории в которых выращено около 200 000 растений in-vitro</div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-item-title">2 <span>теплицы</span></div>
+                <div class="progress-item-subtitle">запущены теплицы в которых доращиваются 120 000 саженцев различных видов растений</div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-item-title">5 500 <span>деревьев</span></div>
+                <div class="progress-item-subtitle">высажено в открытый грунт силами школьников и офисными работниками Татнефти</div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-item-title">262 <span>школьника</span></div>
+                <div class="progress-item-subtitle">участвуют в работе проекта в  лабораториях, из их числа 87 школьников в теплицах</div>
+            </div>
+            <div class="progress-item">
+                <div class="progress-item-title">25 <span>лабораторных работ</span></div>
+                <div class="progress-item-subtitle">которые 2 520 раз провели для школьников в рамках уроков биологии только за 2021-2022 учебный год</div>
+            </div>
         </div>
     </div>
 </section>
+<section id="photo">
+    <div class="container">
+        <div class="slider">
+            <div class="slider-item" data-fancybox="gallery" href="img/01.jpg" >
+                <img class="imgsize" src="img/01.jpg" alt="01">
+            </div>
+            <div class="slider-item" data-fancybox="gallery" href="img/02.jpg" >
+                <img class="imgsize" src="img/02.jpg" alt="01">
+            </div>
+        </div>
+    </div>
+</section>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
